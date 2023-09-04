@@ -31,8 +31,6 @@ const NewExpense = (props) => {
         />
       )}
       {!isOpened && <button onClick={openForm}>Add New Expense</button>}
-
-      {/* <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} /> */}
     </div>
   );
 };
